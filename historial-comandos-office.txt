@@ -1,0 +1,74 @@
+ls -al
+ls -l
+ls -a
+cd /c
+cd Users/
+cd users
+cd dquisupanguil/Documents/
+cd 
+mkdir proyecto01
+touch vacio.txt
+mv vacio.txt proyecto01/
+cd proyecto01/
+history 
+rm vacio.txt 
+touch vacio02.txt 
+cat vacio02.txt 
+cat > vacio02.txt 
+git --version
+git init
+cat > historial.txt
+cat historial.txt 
+git rm vacio02.txt 
+git rm --cached vacio02.txt 
+git add .
+git commit -m "este el primer commit de este archivo"
+git config --all
+git config --list --show-origin
+git show
+cat > historial.txt 
+git commit 
+code historial.txt 
+git commit -m "add author name"
+git commit -m "add version, date"
+git log 
+git diff 914c2d716f1c9f5c989e639de1f4a279c0611573 
+git diff 914c2d716f1c9f5c989e639de1f4a279c0611573 debd6f8ad2e335d2d6c15c2e1e589f8608df31b1
+git diff 611573 df31b1
+git diff 
+git diff debd6f8ad2e335d2d6c15c2e1e589f8608df31b1 914c2d716f1c9f5c989e639de1f4a279c0611573
+git diff fcd3a655273e14857a6c7c73fd680c89b0039558 
+git diff fcd3a655273e14857a6c7c73fd680c89b0039558 debd6f8ad2e335d2d6c15c2e1e589f8608df31b1
+git diff 03ab2f3eeb07d51212108581fdc828a482ab79a3 debd6f8ad2e335d2d6c15c2e1e589f8608df31b1
+git diff debd6f8ad2e335d2d6c15c2e1e589f8608df31b1 989b7cccaad874f69a7d3d8989b91371cade2eb3
+git diff 989b7cccaad874f69a7d3d8989b91371cade2eb3 debd6f8ad2e335d2d6c15c2e1e589f8608df31b1
+git diff
+git reset --soft 989b7cccaad874f69a7d3d8989b91371cade2eb3
+git diff989b7cccaad874f69a7d3d8989b91371cade2eb3 03ab2f3eeb07d51212108581fdc828a482ab79a3
+git diff 989b7cccaad874f69a7d3d8989b91371cade2eb3 03ab2f3eeb07d51212108581fdc828a482ab79a3
+cd /c/Users/dquisupanguil/proyecto01
+git log --stat
+git add -A
+git commit -m "cambos colores en rama master"
+git branch cabecera
+git checkout cabecera
+git commit -m "nuevos parrafos de texto en rama"
+git show-branch
+git show-branch --list
+git commit -am "cambios de texto"
+git commit -am "cambios de texto 2"
+git commit -am "cambios de texto parrafos"
+git checkout master
+git commit -am "cambio parrafo principal"
+git commit -am "add link de sitio web"
+git commit -am "css cambio colores"
+git commit -am "css cambio letra"
+git merge cabecera
+git commit -am "volvi a una tipografia menos controversial"
+git commit -am "cambios miercoles"
+git commit -am "cambio en rama cabecera"
+git diff master cabecera
+git merge master
+git commit -m "resolucion de conflicto en merge con master"
+git commit -m "solucion de conflicto de merge"
+history > comandosUtilesGit.txt
