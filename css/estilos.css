@@ -1,5 +1,5 @@
 body {
-    color: rgb(124, 121, 121);
+    color: #333;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -8,9 +8,9 @@ body {
 }
 
 #cabecera {
-    background: rgb(44, 211, 237);
+    background: #33A;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
-    color: rgb(223, 145, 145);
+    color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
@@ -26,7 +26,7 @@ body {
     width: 70%;
     padding: 0;
     text-align: left;
-    border: 1px solid rgb(161, 155, 155);
+    border: 1px solid #DDD;
     margin: 0 auto;
 }
 
